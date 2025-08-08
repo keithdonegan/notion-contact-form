@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Contact Form w/ Notion | Frontend Hero</title>
+    </head>
+    <body>
+        <div id="feh-wrapper">
+            <h1>Contact Us</h1>
+
+            <form id="feh-contact-form">
+                <label>Name</label>
+                <input type="text" name="name" required>
+
+                <label>Email</label>
+                <input type="email" name="email" required>
+
+                <label>Message</label>
+                <textarea name="message" required></textarea>
+
+                <div style="display: none">
+                    <label>Website</label>
+                    <input type="text" name="website" autocomplete="off">
+                </div>
+
+                <button type="submit">Send</button>
+
+                <p id="feh-form-message"></p>
+            </form>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
